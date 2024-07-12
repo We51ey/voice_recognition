@@ -1,0 +1,21 @@
+
+Now I want to show this voice recognition project. 
+This is the directory structure of my project. 
+The voice source folder stores the voices recorded by different people, which are divided into 10-second files. 
+I use the LBP algorithm to convert the sound into a spectrogram and store it in the voice images folder. 
+And I enhanced the image data by using a combination of Gaussian noise and image cropping.
+
+The first python file is used to record audio. 
+Write your name here and click record. 
+The program will automatically create a folder for you and save your continuously recorded sound as a 10-second segment.
+
+The second python file is used to process the audio file. 
+And save the processing results in the model folder.
+
+The third python file is used to process and analyze the sound in real time and display the current speaker. 
+I used a sliding window to process real-time sound data. 
+The window size I set here is 5 seconds. 
+Although the recognition accuracy is not very high now, I think using a sliding window is a very good idea. 
+In the future, I will try to use deep learning to train some large models to improve the recognition accuracy.
+
+The above is my project demonstration, thank you.
